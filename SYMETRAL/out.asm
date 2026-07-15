@@ -5,7 +5,7 @@ bits 64
 ;****     ****;
 ;***       ***;
 ;**         **;
-;*	     *;
+;*	         *;
 ;SYMETRAL(Basic Symetral FrameWork)
 
 section .data
