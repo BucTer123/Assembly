@@ -11,7 +11,7 @@ bits 64
 section .data
 	msg1 db "Maintext"
 	len1 equ $ - msg1
-	msg2 db "Write text in out.asm file
+	msg2 db "Write text in out.asm file"
 	len2 equ $ - msg2
 	msg3 db "Write text in out.asm file"
 	len3 equ $ - msg3
