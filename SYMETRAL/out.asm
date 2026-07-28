@@ -30,6 +30,7 @@ section .text
 	global _print_helloworld
 	global _print_byeworld
 	global _create_variable
+	global _ret
 
 _print_maintext:
     	mov rax, 1 
@@ -108,3 +109,6 @@ LoopEnd:
 	mov eax, 1
 	mov ebx, 0
 	int 80h
+
+_ret:
+	ret
